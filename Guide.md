@@ -49,6 +49,8 @@ bagging & boosting https://medium.com/@pkqiang49/%E4%B8%80%E6%96%87%E7%9C%8B%E6%
 
 bagging & boosting & varience & bias https://www.zhihu.com/question/26760839
 
+Our thinking: https://github.com/TanYoh/AlgorithmGuideAndThinking/blob/main/Thinking/Bagging%26Boosting.md
+
 ### Python
 闭包 https://zhuanlan.zhihu.com/p/22229197
 
