@@ -34,7 +34,6 @@ Attention Is All You Need https://arxiv.org/abs/1706.03762
 
 (拓展:RNN,LSTM)
 
-
 ### VAE
 博客讲解 https://kexue.fm/archives/5253
 
@@ -42,6 +41,13 @@ Attention Is All You Need https://arxiv.org/abs/1706.03762
 https://zhuanlan.zhihu.com/p/77750026
 
 (小要点: 线性可分，soft/hard，超平面；线性不可分用核函数）
+
+### 集成学习
+varience & bias https://www.zhihu.com/question/27068705
+
+bagging & boosting https://medium.com/@pkqiang49/%E4%B8%80%E6%96%87%E7%9C%8B%E6%87%82%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0-%E8%AF%A6%E8%A7%A3-bagging-boosting-%E4%BB%A5%E5%8F%8A%E4%BB%96%E4%BB%AC%E7%9A%84-4-%E7%82%B9%E5%8C%BA%E5%88%AB-6e3c72df05b8
+
+bagging & boosting & varience & bias https://www.zhihu.com/question/26760839
 
 ### Python
 闭包 https://zhuanlan.zhihu.com/p/22229197
