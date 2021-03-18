@@ -22,7 +22,6 @@ BP推导 https://www.cnblogs.com/biaoyu/p/4591304.html
 
 调参技巧 https://www.cnblogs.com/pinard/p/6143927.html
 
-
 ### Transformer
 博客（英文） http://jalammar.github.io/illustrated-transformer/
 
@@ -50,6 +49,10 @@ bagging & boosting https://medium.com/@pkqiang49/%E4%B8%80%E6%96%87%E7%9C%8B%E6%
 bagging & boosting & varience & bias https://www.zhihu.com/question/26760839
 
 Our thinking: https://github.com/TanYoh/AlgorithmGuideAndThinking/blob/main/Thinking/Bagging%26Boosting.md
+
+### Normalization
+
+详解各种Norm https://zhuanlan.zhihu.com/p/33173246
 
 ### Python
 闭包 https://zhuanlan.zhihu.com/p/22229197
