@@ -42,3 +42,6 @@ Transformer中为何不使用Batch Norm而使用Layer Norm？每个Batch中存�
 导致其提供的梯度也具有不稳定性，模型难以收敛。
 同样还有一篇文章[Understanding and Improving Layer Normalization](https://papers.nips.cc/paper/2019/file/2f4fe03d77724a7217006e5d16728874-Paper.pdf)发现不做Rescale反而会有效果提升，
 而Layer Norm起作用的原因在于既使得输入的分布更加稳定，同时使后向的梯度也更加稳定，二者共同产生Layer Norm的优化效果
+
+**回答思路**
+层内操作-->分布不同-->失去独立同分布-->三个问题：上层艰难适应下层，饱和区，慎重更新策略-->norm 先平移伸缩拉至标准正态分布，降低上层的学习难度，同时拉至非饱和区，减缓梯度消失，随后再平移再伸缩保证模型的表达能力，这一步与层内操作解耦，仅产生小偏移，不过分影响拉至标准正态分布的效果-->BN和LN-->起作用原因：权重偏移不变性，数据偏移不变性
